@@ -1,0 +1,51 @@
+.top{
+    text-align: center;
+    margin: 0 auto;
+   width: 400px;
+   height: 100px; 
+   background-color: red;
+
+}
+
+.topText{
+    padding-top: 35px;
+    font-weight: bold;
+    font-size: 18pt;
+    
+}
+
+
+.middle{
+    text-align: center;
+    vertical-align:middle;
+    margin: 0 auto;
+    width: 600px;
+    height: 100px;
+    background-color: blue;
+}
+
+.middleText{
+    padding-top: 35px;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.bottom{
+    text-align:center;
+    margin: 0 auto;
+    width: 750px;
+    height: 100px;
+    background-color: green;
+
+}
+
+.bottomText{
+    padding-top: 35px;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+
+
+
+
