@@ -65,9 +65,10 @@ body{
 
 }
 header{
-    display: gird;
+    display: grid;
     grid-template-columns: 150px auto;
     background-color:#E9C46A;
+    
 }
 
 nav a:hover{
