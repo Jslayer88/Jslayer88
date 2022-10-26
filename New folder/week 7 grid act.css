@@ -1,0 +1,28 @@
+.shapes{
+    
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 14px;
+        grid-row-gap: 11px;
+        
+
+}
+
+.box1{
+    grid-area: 3 / 2 / 4 / 3;
+    background-color: red;
+}
+
+.box2{
+    grid-area: 3 / 3 / 4 / 4; 
+    background-color:blue;
+}
+
+.box3{
+    justify-items: center;
+    width: 100px;
+    height:100px;
+    background-color:green;
+
+}
