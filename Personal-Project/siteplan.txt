@@ -1,0 +1,17 @@
+
+Color Pallet
+https://coolors.co/palette/6b9080-a4c3b2-cce3de-eaf4f4-f6fff8
+
+Fonts
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans&family=Playfair+Display&display=swap');
+</style>
+
+font-family: 'Arvo', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+
+Logo
+https://www.google.com/url?sa=i&url=https%3A%2F%2F99designs.com%2Flogo-design%2Fcontests%2Ftext-based-logo-popular-photography-website-701271&psig=AOvVaw2ma165uVVY9WcY63tBJ8pm&ust=1666649967729000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCfw4yx9_oCFQAAAAAdAAAAABAE
+
+
