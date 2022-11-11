@@ -253,6 +253,16 @@ nav{
 }
 
 
+/* Page 2 CSS */
+
+.question{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#title{
+    text-align: center;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
