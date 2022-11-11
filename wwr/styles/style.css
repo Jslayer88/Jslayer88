@@ -264,6 +264,15 @@ nav{
 #title{
     text-align: center;
 }
+
+#help-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
