@@ -261,6 +261,11 @@ nav{
     padding: 3%;
 }
 
+.answer{
+    line-height:1.5;
+  }
+
+
 #title{
     text-align: center;
     color: #264653;
