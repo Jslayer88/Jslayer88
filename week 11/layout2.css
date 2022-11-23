@@ -1,0 +1,30 @@
+section {
+    width: 50%;
+    border: 1px solid;
+  }
+  
+.block2{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.block3{
+    margin-left: auto;
+}
+
+.block4{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.left{
+    text-align:left;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align:right;
+}
