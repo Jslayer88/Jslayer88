@@ -1,44 +1,5 @@
-.fling-minislide {width:800px; height:600px; overflow:hidden; position:relative; }
-.fling-minislide img{ position:absolute; animation:fling-minislide 30s infinite; opacity:0; width: 100%; height: auto;}
-
-@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
-.fling-minislide img:nth-child(6){animation-delay:0s;}
-.fling-minislide img:nth-child(5){animation-delay:5s;}
-.fling-minislide img:nth-child(4){animation-delay:10s;}
-.fling-minislide img:nth-child(3){animation-delay:15s;}
-.fling-minislide img:nth-child(2){animation-delay:20s;}
-.fling-minislide img:nth-child(1){animation-delay:25s;}
-
-/* Define the main Navigation block */
-.myNav {
-    display: block;
-    height: 50px;
-    line-height: 50px;
-    background-color: #333;
-}
-/* Remove bullets, margin and padding */
-.myNav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.myNav li {
-    float: left;
-    /* Or you can use display: inline; */
-}
-/* Define the block styling for the links */
-.myNav li a {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-}
-/* This is optional, however if you want to display the active link differently apply a background to it */
-.myNav li a.active {
-    background-color: #3786E1;
-}
-
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans&family=Playfair+Display&display=swap');
+*{
 
     margin: 0;
     
@@ -65,38 +26,8 @@
     list-style: none;
     
     }
-    
 
-
-
-footer{
-    background-color: #738290;
-    color: black;
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-
-footer a{
-    color: black;
-    text-decoration: none;
-}
-
-footer a:hover{
-    color: black;
-}
-
-footer p{
-    font-size: 1.2em;
-}
-
-footer p a:hover{
-    text-decoration: underline;
-}
-
+/* Nav Bar */
 
 .navbar {
 
@@ -137,7 +68,7 @@ footer p a:hover{
     
     display: flex;
     
-    gap: 10em;
+    gap: 3em;
     
     font-size: 18px;
     
@@ -145,7 +76,7 @@ footer p a:hover{
     
     .menu li:hover {
     
-    background-color: #4c9e9e;
+    background-color: #A1B5D8;
     
     border-radius: 5px;
     
@@ -159,10 +90,127 @@ footer p a:hover{
     
     }
     
+    .header1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+
+
+
+    /* Home Page Main Content */
+
+   
+
+/* Footer */
+
+footer{
+    background-color: #738290;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: black;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+
+/* Page 1 Slide Show */
     
+    .fling-minislide {width:850px; height:650px; overflow:hidden; position:relative; }
+    .fling-minislide img{ position:absolute; animation:fling-minislide 30s infinite; opacity:0; width: 100%; height: auto;}
     
+    @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+    .fling-minislide img:nth-child(6){animation-delay:0s;}
+    .fling-minislide img:nth-child(5){animation-delay:5s;}
+    .fling-minislide img:nth-child(4){animation-delay:10s;}
+    .fling-minislide img:nth-child(3){animation-delay:15s;}
+    .fling-minislide img:nth-child(2){animation-delay:20s;}
+    .fling-minislide img:nth-child(1){animation-delay:25s;}
     
+/* Page 1 Main Content */
+
+.index_title{
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+.fling-minislide{
+    margin: auto;
+}
+
+.index_text{
+    font-family: 'Playfair Display';
+    line-height:2;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#index_main{
+    background-color: #E4F0D0;
+}
+/* Media */
+
+@media screen and (max-width: 900px) {
+    
+    nav, footer {
+        flex-direction: column;
+    }
+    nav {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+   
+    }
+    footer {
+        margin-top: 25px;
+    }
+
+
     
  
 
