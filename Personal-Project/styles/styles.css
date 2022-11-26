@@ -101,17 +101,18 @@
 
     /* Home Page Main Content */
 
-   
+    /* .header{ */
+        /* text-align: center; */
+    /* } */
 
 /* Footer */
 
 footer{
     background-color: #738290;
     color: black;
-    padding: 25px 50px;
-    margin-top: 200px;
+    padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
 }
@@ -171,7 +172,7 @@ footer p a:hover{
 }
 
 #index_main{
-    background-color: #E4F0D0;
+    background-color: red;
 }
 /* Media */
 
@@ -206,11 +207,7 @@ footer p a:hover{
     }
    
     }
-    footer {
-        margin-top: 25px;
-    }
-
-
+    
     
  
 
