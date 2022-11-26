@@ -9,11 +9,7 @@
     
     }
     
-    body {
-    
-    font-family: cursive;
-    
-    }
+   
     
     a {
     
@@ -48,8 +44,8 @@
     .nav-links a {
         margin: 0 auto;
         text-align: center;   
-    
-    color: #fff;
+        font-family: 'Arvo';
+        color: #fff;
     
     }
     
@@ -153,15 +149,27 @@ footer p a:hover{
 .index_title{
     text-align:center;
     padding-bottom: 20px;
+    font-family: 'Arvo';
+    font-style: italic;
+    color: #738290;
+    padding-top: 20px;
+
 }
 
 .fling-minislide{
     margin: auto;
+    padding-top: 20px;
 }
 
 .index_text{
-    font-family: 'Playfair Display';
+   
     line-height:2;
+    font-family: 'Playfair Display';
+    font-size: larger;
+    
+    margin-left: 25%;
+    margin-right:25%;
+    text-align:center;
 }
 
 .logo{
