@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans&family=Playfair+Display&display=swap');
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 *{
 
     margin: 0;
@@ -36,6 +45,7 @@
     padding: 20px;
     
     background-color: #738290;
+  
     
     
     }
@@ -43,6 +53,8 @@
     .nav-links  {
         margin: 0 auto;
         align-items: center; 
+        
+        
         
     }
     .nav-links a{
