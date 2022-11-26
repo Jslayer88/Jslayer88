@@ -41,12 +41,14 @@
     
     }
     
-    .nav-links a {
+    .nav-links  {
         margin: 0 auto;
-        text-align: center;   
+        align-items: center; 
+        
+    }
+    .nav-links a{
+        color: white;
         font-family: 'Arvo';
-        color: #fff;
-    
     }
     
     /* LOGO */
