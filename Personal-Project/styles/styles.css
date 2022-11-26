@@ -135,7 +135,7 @@ footer p a:hover{
 
 /* Page 1 Slide Show */
     
-    .fling-minislide {width:50%; height:0px;padding-bottom: 40%; overflow:hidden; position:relative; }
+    .fling-minislide {width:70%; height:0px;padding-bottom: 50%; overflow:hidden; position:relative; }
     .fling-minislide img{ position:absolute; animation:fling-minislide 30s infinite; opacity:0; width: 100%; height: auto;}
     
     @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
@@ -160,7 +160,7 @@ footer p a:hover{
 
 .fling-minislide{
     margin: auto;
-    padding-top: 20px;
+    padding-top: 5%;
 }
 
 .index_text{
