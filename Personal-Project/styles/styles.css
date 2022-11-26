@@ -107,7 +107,7 @@
 
 footer{
     background-color: #738290;
-    color: black;
+    color: white;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -116,7 +116,7 @@ footer{
 }
 
 footer a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
