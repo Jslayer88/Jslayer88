@@ -116,6 +116,7 @@ footer{
     align-items: center;
     font-size: 18px;
     
+    
 }
 
 footer a{
@@ -134,7 +135,7 @@ footer p a:hover{
 
 /* Page 1 Slide Show */
     
-    .fling-minislide {width:850px; height:650px; overflow:hidden; position:relative; }
+    .fling-minislide {width:75%; height:0px;padding-bottom: 60%; overflow:hidden; position:relative; }
     .fling-minislide img{ position:absolute; animation:fling-minislide 30s infinite; opacity:0; width: 100%; height: auto;}
     
     @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
@@ -197,26 +198,18 @@ footer p a:hover{
     #hero {
         margin-top: 0;
     }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
+   
     .home-title {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
+   
     #background {
         display: none;
     }
    
-    }
     
+}
     
  
 
