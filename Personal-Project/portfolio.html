@@ -5,36 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>"Personal-Project| Improve Photography| Home"</title>
-
     <link rel="stylesheet" href="./styles/styles.css">
      
 </head>
 <body>
-
-
+ <!-- Nav Bar -->
+ <nav class="navbar">
+    <div class="logos">
+        <img src="https://jslayer88.github.io/wdd130/Personal-Project/Images/Logo/logo.jpg" width="80" height="80" alt="Nav Logo">
+    </div>
+    <div class="nav-links">
+        <ul class="menu">
     
+        <li><a href="./index.html">Home</a></li>
+    
+        <li><a href="./portfolio.html">Portfolio</a></li>
 
-      <h1 class ="header">Portfolio</h1>
-      <p>
-        Below are various photos that I have taken from all sorts of events and projects. As you will see I do just about everything including
-        weddings, family pictures, engagements photos, and even nature photographs. I am able to capture pretty much anything that you can dream of.
-         I hope you enjoy this portfolio as much as I do! 
-      </p>
-    <div class="fling-minislide">
-        <img src="./Images/Portfolio/img 6.jpg" alt="Slide 6">
-        <img src="./Images/Portfolio/img 5.jpg" alt="Slide 5">
-        <img src="./Images/Portfolio/img 4.jpg" alt="Slide 4" />
-        <img src="./Images/Portfolio/img 3.jpg" alt="Slide 3" />
-        <img src="./Images/Portfolio/img 2.jpg" alt="Slide 2" />
-        <img src="./Images/Portfolio/img 1.jpg" alt="Slide 1" />
-      </div>
+        <li><a href="./faqs.html">FAQs</a></li>
+
+        <li><a href="./site-plan.html">Site Plan</a></li>
+        </ul>
+    </div>     
+</nav>
+
+<!-- Header -->
+<div class="header" id="myHeader">
+    <h1 class ="page_title">Portfolio</h1>
+    <p class= "page_text" id = "port_text">Below are various photos that I have taken from all sorts of events and projects. 
+      As you will see I do just about everything including weddings, family pictures, engagements photos, 
+      and even nature photographs. I am able to capture pretty much anything that you can dream of. 
+      I hope you enjoy this portfolio as much as I do!</p>
+      <button class="btn active" onclick="two()">2 Grid</button>
+      <button class="btn" onclick="four()">4 Grid</button>
+  </div>
+  
+  <!-- Photo Grid -->
+  <div class="row"> 
+    <div class="column">
+      <img src="./Images/Portfolio/img 9.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 2.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 3.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 4.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 5.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 6.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 7.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 14.jpg" style="width:100%">
+
+    </div>
+    <div class="column">
+      <img src="./Images/Portfolio/img 8.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 1.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 10.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 11.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 12.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 13.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 30.jpg" style="width:100%">
+
+    </div>  
+    <div class="column">
+      <img src="./Images/Portfolio/img 15.png" style="width:100%">
+      <img src="./Images/Portfolio/img 16.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 17.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 18.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 19.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 20.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 21.jpg" style="width:100%">
       
-       
-    
+    </div>
+    <div class="column">
+      <img src="./Images/Portfolio/img 22.jpeg" style="width:100%">
+      <img src="./Images/Portfolio/img 23.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 24.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 25.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 26.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 27.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 28.jpg" style="width:100%">
+      <img src="./Images/Portfolio/img 29.jpg" style="width:100%">
 
-   
-    
-    
+      
+    </div> 
+
+    </div>
+  </div>
+
     
         <footer>
         <p>Improve Photography &copy; 2022 -Justin Paystrup</p>
@@ -56,11 +109,42 @@
         </div>
     </footer>
 
-    </div>
+    </div>   
+    <script>
+        // Get the elements with class="column"
+        var elements = document.getElementsByClassName("column");
+        
+        // Declare a loop variable
+        var i;
+        
+        
+        // Two images side by side
+        function two() {
+          for (i = 0; i < elements.length; i++) {
+            elements[i].style.msFlex = "50%";  // IE10
+            elements[i].style.flex = "50%";
+          }
+        }
+        
+        // Four images side by side
+        function four() {
+          for (i = 0; i < elements.length; i++) {
+            elements[i].style.msFlex = "25%";  // IE10
+            elements[i].style.flex = "25%";
+          }
+        }
+        
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myHeader");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+        </script>
 
-    
- 
-
-   
 </body>
 </html>
