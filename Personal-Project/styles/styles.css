@@ -256,6 +256,27 @@ footer p a:hover{
     padding-bottom: 20px;
 }
 
+/* Page 3 FAQs */
+.question{
+    font-family: 'Arvo';
+    padding-bottom: 18px;
+    margin-left: 18px;
+    font-size: x-large;
+}
+.answer{
+    font-family:'Playfair Display';
+    padding-bottom: 18px;
+    line-height: 2;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: larger;
+}
+
+.faqs_img{
+    margin: auto;
+    display: block;
+    padding-bottom: 18px;
+}
 
 
 
